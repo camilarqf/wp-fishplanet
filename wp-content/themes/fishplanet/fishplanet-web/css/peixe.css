@@ -1,0 +1,154 @@
+.intro-peixe{
+    width: 100%;
+    background: url("../img/peixes/bg-peixes.jpg") no-repeat center;
+    background-size: cover;
+    height: 200px;
+    margin-top: 96px;
+}
+
+.peixe_dulc, .peixe_marinho{
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.lista_peixes{
+    padding-top: 40px;
+    
+}
+
+.lista_peixes h3{
+    background-color:  #161c2e;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    padding: 30px;
+}
+
+.lista_peixes h3:after{
+    content:"";
+    width: 50px;
+    height: 3px;
+    display: block;
+    margin: 4px auto;
+    background: white;
+}
+
+.lista_peixes img{
+    width: 460px;
+}
+
+.lista_peixes li:nth-child(4), .lista_peixes li:nth-child(5){
+    margin-top: 20px;
+}
+
+.peixe_marinho{
+    width: 100%;
+    background-color: #161c2e;
+}
+
+.peixe_marinho h2{
+    color: white;
+}
+
+.peixe_marinho .subtitulo-interno:after{
+    content:"";
+    width: 50px;
+    height: 3px;
+    display: block;
+    margin: 10px auto;
+    background: white;
+}
+
+.peixe_marinho ul {
+    padding-top: 40px;
+   
+}
+
+
+.lista_peixes_02 h3{
+    color: #161c2e;
+    background-color: white;
+    padding: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+}
+
+.lista_peixes_02 h3:after{
+    content:"";
+    width: 50px;
+    height: 3px;
+    display: block;
+    margin: 4px auto;
+    background:#161c2e;
+}
+
+.orcamento{
+    text-align: center;
+}
+
+.orcamento form{
+    padding: 40px;
+}
+
+.orcamento label{
+    display: block;
+    text-align: left;
+    padding-bottom: 5px;
+    padding-top: 15px;
+    color: #161c2e;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.orcamento input, .orcamento textarea{
+    width: 100%;
+    border: 3px solid #161c2e;
+    padding: 10px 12px;
+    outline: none;
+}
+
+.orcamento textarea{
+    height: 142px;
+    margin-bottom: 20px;
+}
+.orcamento button{
+    display: block;
+}
+
+.contato-orcamento{
+    padding-top: 50px;
+    text-align: left;
+    font-size: 18px;
+}
+
+.contato-orcamento h3{
+    line-height: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    letter-spacing: .1em;
+    color: #161c2e;
+}
+
+.contato-orcamento ul{
+    padding-bottom: 20px;
+}
+
+.contato-orcamento ul li{
+    line-height: 30px;
+    max-width: 300px;
+}
+
+.lista-espec ul li{
+    padding: 10px;
+    font-size: 14px;
+    
+}
+.lista-espec ul li:nth-child(odd){
+    background-color: #161c2e;
+    color: white;
+}

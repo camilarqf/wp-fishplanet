@@ -1,0 +1,78 @@
+.intro-contato{
+    width: 100%;
+    background: url("../img/contato/bg-contato.jpg") no-repeat center;
+    background-size: cover;
+    height: 200px;
+    margin-top: 96px;
+}
+
+.contato-form form{
+    padding: 40px 40px 40px 0;
+}
+
+.contato-form label{
+    display: block;
+    text-align: left;
+    padding-bottom: 5px;
+    padding-top: 15px;
+    color: #161c2e;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.contato-form input, .contato-form textarea{
+    width: 100%;
+    border: 3px solid #161c2e;
+    padding: 10px 12px;
+    outline: none;
+}
+
+.contato-form textarea{
+    height: 142px;
+    margin-bottom: 20px;
+}
+.contato-form button{
+    display: block;
+}
+
+.contato-dados{
+    padding-top: 50px;
+    text-align: left;
+    font-size: 18px;
+}
+
+.contato-dados h3, .redes_sociais.redes-azul h3{
+    line-height: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    letter-spacing: .1em;
+    color: #161c2e;
+}
+
+.contato-dados ul{
+    padding-bottom: 20px;
+}
+
+.contato-dados ul li{
+    line-height: 30px;
+    max-width: 300px;
+}
+
+.contato-dados ul li:nth-child(2){
+    margin-bottom: 20px;
+}
+
+
+.redes_sociais.redes-azul ul li a{
+    border-color: #161c2e;
+}
+
+.redes_sociais.redes-azul ul li a:hover{
+    border-color: #2bb3c0;
+    transition: all .5s ease;
+}
+
+.mapa{
+    margin-bottom: 40px;
+}

@@ -1,0 +1,82 @@
+.intro-sobre{
+    width: 100%;
+    background: url("../img/sobre/bg-sobre.jpg") no-repeat center;
+    background-size: cover;
+    height: 200px;
+    margin-top: 96px;
+}
+
+.missao-sobre p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding-right: 60px;
+    margin-bottom: 10px;
+}
+
+.missao-sobre .subtitulo-interno:after, .valores-sobre .subtitulo-interno:after{
+    margin: 6px 0 20px;
+}
+
+.valores-sobre ul li{
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.equipe img{
+    padding-top: 40px;
+}
+
+.qualidade-sobre{
+    text-align: center;
+}
+
+.qualidade-sobre:after {
+    background-image: url("../img/linhas.png");
+    position: absolute;
+    content: "";
+    display: block;
+    width: 620px;
+    height: 103px;
+    top: 210px;
+    right: 170px;
+}
+
+.qualidade-sobre{
+    overflow: auto; /*clear fix*/
+}
+
+.qualidade-sobre img{
+    padding-top: 40px;
+    margin: 0 auto;
+    
+    
+}
+
+.qualidade-sobre ul {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.qualidade-sobre ul li {
+    padding-right: 17px;
+    padding-left: 10px;
+    padding-bottom: 40px;
+   
+}
+
+.qualidade-sobre h3 {
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+}
+
+.qualidade-sobre h3:after {
+    content: "";
+    width: 50px;
+    height: 3px;
+    background-color: #161c2e;
+    display: block;
+    margin: 6px auto 10px auto;
+    z-index: -1;
+    
+}
