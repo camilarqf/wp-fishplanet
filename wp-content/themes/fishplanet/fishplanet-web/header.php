@@ -5,17 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="Conheça mais sobre a história da FishPlanet">
+    <meta name="description" content="<?php bloginfo('name'); ?><?php wp_title(' - '); ?><?php the_field('descricao_seo'); ?>">
 
     <meta property="og:type" content="website">
-    <meta property="og:title" content="FishPlanet - Sobre nós">
-    <meta property="og:description" content="Conheça mais sobre a história da FishPlanet">
-    <meta property="og:url" content="htpp://camilarqf/fishplanet.github.io/sobre.html">
-    <meta property="og:image" content="htpp://camilarqf/fishplanet.github.io/img/og-image.png">
+    <meta property="og:title" content="<?php bloginfo('name'); ?><?php wp_title(' - '); ?><?php the_field('title_seo'); ?>">
+    <meta property="og:description" content="<?php bloginfo('name'); ?><?php wp_title(' - '); ?><?php the_field('descricao_seo'); ?>">
+    <meta property="og:url" content=""<?php bloginfo('url'); ?>">
+    <meta property="og:image" content="<?php echo get_stylesheet_directory_uri(); ?>/img/og-image.png">
 
-    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico">
 
-    <title><?php bloginfo('name'); ?> - Sobre nós</title>
+    <title><?php bloginfo('name'); ?><?php wp_title(' - '); ?><?php the_field('title_seo'); ?></title>
 
     <?php wp_head(); ?>
 </head>
